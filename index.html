@@ -1,3 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>word secrets</title>
+
+     <meta property="og:site_name" content="word secrets">
+  <meta property="og:title" content="(・∀・(・∀・(・∀・*)" />
+  <meta property="og:description" content="自動產生的連結發送秘密(？訊息" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="20211107_212640_0000.png">
+  <link rel="manifest" href="manifest.json" />
+  
+  <meta property="og:url" content="https://hello1234316.github.io/wordsecrets/" />
+<link rel="icon" type="image/png" sizes="164x164" href="20211107_212640_0000.png">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    /> 
+ <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+        <style>
+      body {
+        background-color: #37474f;
+      }
+      .card {
+        background-color: #37474f;
+        border-radius: 10px;
+      }
+      .cyan-color {
+        color: rgb(106, 247, 252);
+      }
+      input {
+        color: whitesmoke;
+      }
+      label {
+        font-size: 1rem;
+      }
+      h2 {
+        font-family: "Yellowtail", cursive;
+      }
+      .btn {
+        border-radius: 18px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        text-transform: none;
+      }
+      .show {
+        display: block !important;
+      }
+      .container {
+        margin-top: 10%;
+      }
+      p {
+        color: whitesmoke;
+        text-transform: initial;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row show-msg hide">
+          <h2 class="center-align cyan-color">message</h2>
+          <div class="card z-depth-4">
+            <div class="card-content">
+              <p class="flow-text"></p>
+            </div>
+            <div class="card-action">
+              <a href="./index.html" class="cyan-text text-accent-3"
+                ><u>填寫你的訊息</u></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row write-msg">
+          <div class="center">
+            <h2 class="cyan-color">word secrets</h2>
+            <span class="cyan-color"
+              >自動產生的連結發送秘密(？訊息</span
+            >
+          </div>
+          <div class="card z-depth-4">
+            <br />
+            <form>
+              <div class="row">
+                <div class="col s12">
+                  <label for="first_name" class="cyan-color"
+                    >你的訊息</label
+                  >
+                  <input type="text" id="message" autocomplete="off" />
+                </div>
+              </div>
+              <div class="center">
+                <input
+                  type="submit"
+                  value="產生連結"
+                  class="btn blue-grey lighten-3 z-depth-3"
+                />
               </div>
               <br />
             </form>
